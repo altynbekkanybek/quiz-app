@@ -1,0 +1,21 @@
+
+
+.start_point {
+  width: 400px;
+  height: auto;
+  background-color: #A2BCBF ;
+  border-radius: 20px;
+  color: #055256 ;
+  padding: 20px;
+  text-align: center;
+
+  h1 {
+    cursor: pointer;
+    font-size: 2em;
+  }
+
+  &_btn {
+    margin-top: 90px;
+  }
+
+}

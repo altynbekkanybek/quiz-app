@@ -1,0 +1,45 @@
+
+.quiz_point {
+  width: 400px;
+  height: auto;
+  background-color: #FC6F20 ;
+  border-radius: 20px;
+  color: #055256 ;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+
+  span {
+    position: absolute;
+    top: 9%;
+    left: 15%;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  ul {
+    li {
+      margin-top: 10px 0;
+      cursor: pointer;
+      color :white;
+      line-height: 2;
+
+      &:hover {
+        color: #AAD4C8;
+      }
+    }
+  }
+
+  .activeList {
+    color:red;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  &_btn {
+    margin-top: 40px;
+  }
+
+}
